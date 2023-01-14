@@ -184,7 +184,96 @@ body a{
 	height: 50px;
 }
 
-.a-container {
-	height: 579px;
+#universal-detail-ilm {
+	display: flex;
+	justify-content: center;
 }
+
+#showing-breadcrumbs{
+	margin-top: 8px;
+	height: 16px;
+	color:#6D7070;
+	display: block;
+}
+#showing-breadcrumbs .showing-breadcrumbs-subheader ul {
+	display: flex;
+	justify-content: start;
+	height: 14px;
+}
+#showing-breadcrumbs ul li span {
+	font: 10px;
+}
+
+#db-container .a-container{
+	width: 1500px;
+	padding: 18px;
+}
+
+.a-fixed-right-grid-col .a-col-left{
+	width: 1164px;
+	height: 614px;
+}
+
+#aud_left_col .a-fixed-left-grid-col .a-col-left{
+	width: 250px;
+	height: 317px;
+}
+#aud_center_col .a-fixed-left-grid-col .a-col-right {
+	width: 873.24px;
+	height: 614px;
+}
+.main-image {
+	width: 250px;
+	height: 250px;
+}
+#audibleProductTitle_byline .a-section{
+	height: 20px;
+}
+ #averageCustomerReviews_feature_div .celwidget{
+		height: 20px;
+ }
+#audiblesampleplayer .celwidget {
+		width: 31px;
+}
+#productTitle{
+	width: 703.95px;
+	height: 30px;
+}
+.a-size-medium .a-color-secondary{
+	width: 297.8px;
+	height: 22px;
+}
+#product-logo{
+	width: 20px;
+	height: 12px;
+}
+.morpheusRoot {
+	width: 842px;
+	height: 24px;
+}
+#tmmSwatches .a-row {
+	width: 842px;
+	height: 106px;
+}
+ #bookDescription_feature_div .celwidget{
+	width: 842px;
+	height: 103px;
+ }
+#aud_product_copyright .a-section .a-spacing-base{
+	width: 847px;
+	height: 20px;
+}
+#richProductInformation_feature_div .celwidget{
+	width: 842px;
+	height: 133px;
+}
+
+#aud_right_col .a-fixed-right-grid-col .a-col-right {
+	width: 300px;
+	height: 411px;
+}
+
+
+
+
 
