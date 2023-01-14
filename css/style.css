@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* COLORS */
+/*
+	nav top - #131921
+	nav belt -#232F3E
+	font-special1 - #007185
+	font-special2 - #E68305
+	button search - #FEBD69
+	ratings - #FFA41C
+	best sellers - #C45500
+
+*/
+:root {
+	
+
+
+/* FONTS */
+/* --FS: clamp(1rem, 2.2vh, 1.5rem); */
+--FS_NORM: 14px;
+--FS_SMALL: 12px;
+
+
+/* COLORS */
+--DARK-BG-FC: #fff;
+--LIGHT-BG-FC: #000;
+}
+
+  @font-face {
+  font-family: "Amazon-Ember","amazon-ember",Arial,sans-serif;
+  src: url('../assets/fonts/AmazonEmber_Rg.ttf') format('ttf');
+  src:  url('../assets/fonts/AmazonEmber_W_Bd.woff') format('woff'),
+        url('../assets/fonts/AmazonEmber_W_Bd.woff2') format('woff2'),
+		url('../assets/fonts/AmazonEmber_W_Rg.woff') format('woff'),
+		url('../assets/fonts/AmazonEmber_W_Rg.woff2') format('woff2');
+}
+div {
+	border: 1px solid rgb(232, 85, 85);
+}
+div a {
+		border: 1px solid rgb(9, 159, 178);
+
+}
+
+
+html {
+	height: 500px;
+	background-color: #fff;
+	font-family: "Amazon-Ember", Arial, sans-serif;	
+	width: 1903px;
+}
+
+header #navbar  {
+	display: block;
+	height: 149px;
+	width: 1903px;
+	color: #fff;
+}
+#nav-belt, #nav-main  {
+	font-size: var(--FS_NORM);
+	color: var(--DARK-BG_FC)
+}
+#nav-belt .nav-left{
+	width: 216.64px;
+}
+
+#nav-belt #nav-logo{
+	width: 113px;
+}
+#nav-belt #nav-logo a{
+	height: 50px;
+}
+#nav-belt #nav-logo{
+	width: 113px;
+}
+
+#navbar #nav-belt{
+	display: flex;
+	height: 60px;
+	background-color:#131921;
+}
+#nav-belt .nav-left{
+	display: flex;
+	width: 251.59px;
+}
+#nav-belt .nav-fill{
+	display: flex;
+	width: 1251.55px;
+}
+#nav-belt .nav-right{
+	display: flex;
+	width: 399.85px;
+}
+
+#nav-main{
+	display: flex;
+	height: 39px;
+	background-color: #232F3E;
+	text-align: center;
+	line-height: 1em;
+}
+#nav-main .nav-left{
+	width: 58.42px;
+	height: 39px;
+	text-align: center;
+}
+
+#nav-main .nav-left #nav-hamburger-menu {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 58.42px;
+	height: 28px;
+	padding: 8px 9px;
+	margin: 5px 0px 6px;
+	font-weight: bold;
+}
+#nav-main .nav-left #nav-hamburger-menu .hm-icon-sprite{
+	width: 30px;
+	height: 14px;
+	opacity: 1;
+}
+#nav-main .nav-left #nav-hamburger-menu .hm-icon-label{
+	width: 23.42px;
+	height: 12px;
+}
+
+#nav-main .nav-fill{
+	width: 1086.61.92px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex: 1;
+}
+#nav-main .nav-fill .nav-a{
+	margin: 5px 0px 6px;
+	padding: 8px 9px;
+}
+
+#nav-main .nav-right {
+	width: 194.97px;
+	font-size: var(--FS_SMALL);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#nav-main .nav-right a {
+	width: 181.97px;
+	height: 28px;
+	margin: 5px 1px 6px 0px;
+	padding: 5px 8px 6px;
+	font-weight: bold;
+	font-size: var(--FS_NORM);
+	
+}
+
+#nav-main a, #nav-belt a{
+	text-decoration: none;
+	color: var(--DARK-BG_FC);
+}
+body a{
+	text-decoration: none;
+	color: var(--LIGHT-BG_FC);
+}
+
+#nav-subnav.spacious  {
+	border: 1px solid #fff;
+	height: 50px;
+	display: flex;
+	padding: 0 9px 0 15px;
+	justify-content: space-between;
+	color: #000;
+}
+
+#dp .audible_en_US .universal-detail-ilm{
+	height: 45px;
+}
+
+.nav-categ-image{
+	width: 158.39px;
+	height: 50px;
+}
+
+.a-container {
+	height: 579px;
+}
+

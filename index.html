@@ -8,13 +8,21 @@
     <title>Amazon Clone</title>
   </head>
   <body>
-    <div id="a-page">
     <header>
       <div id="navbar">
-        <div id="navbelt">
+        <div id="nav-belt">
           <div class="nav-left">
             <div id="nav-logo">
-              <div class="nav-global-location-slot"></div>
+              <a href="./assets/images/sprite/logo_amazon_v1_104x38.png" width="104" height="38" id="nav-logo-sprites" class="nav-logo-link nav-progressive-attribute"
+                aria-label="Amazon">
+                <span class="nav-sprite nav-logo-base"></span>
+                <span id="logo-ext" class="nav-sprite nav-logo-ext nav-progressive-content"></span>
+                <span class="nav-logo-locale">.us</span>
+              </a>
+            </div>
+
+            <div class="nav-global-location">
+              
             </div>
           </div>
 
@@ -38,12 +46,17 @@
             </div>
           </div>
         </div>
-        <!-- border dev? <div id="nav-flyout"></div> -->
-        <div id="nav-main" class="nav-sprite">
-          <div class="nav-left">
-            <a href="javascript: void(0)" id="nav-hamburger-menu"></a>
-          </div>
-          <div class="nav-fill">
+        <!-- border dev?iv id="nav-flyout"></div> -->
+
+        <div id="nav-main">
+            <div class="nav-left">
+              <a href="javascript: void(0)" id="nav-hamburger-menu">
+                <img class="hm-icon-sprite" src="./assets/images/sprite/icon_menu_v1_30x23.png" width="30px" height="23px"/>
+                <span class="hm-icon-label">All</span>
+              </a>
+            </div>
+
+            <div class="nav-fill">
               <div id="nav-xshop-container">
                 <div id="nav-xshop" class="nav-progressive-content">
                   <a
@@ -73,252 +86,457 @@
                   >
                 </div>
               </div>
+            </div>
+
+            <div class="nav-right">
+              <div id="nav-swmslot" class="nav-swm-text-widget">
+                <a
+                  href="https://www.amazon.com/gp/goldbox/?ie=UTF8&amp;deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%2522F8B394D5931781B21032A79CA5679225%2522%252C%2522departments%2522%253A%255B%2522172282%2522%255D%252C%2522sorting%2522%253A%2522BY_SCORE%2522%257D&amp;ref_=nav_swm_undefined&amp;pf_rd_p=f235c648-fdf7-4f83-9adb-d6d5a4235500&amp;pf_rd_s=nav-sitewide-msg-text-export&amp;pf_rd_t=4201&amp;pf_rd_i=navbar-4201&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_r=6R69BZN76ZNP5V9HP7GN"
+                  >Shop deals in Electronics</a
+                >
               </div>
+            </div>
+          </div>
+          <!-- <div id="nav-progressive-subnav"> -->
 
-              <div class="nav-right">
-                <div id="nav-swmslot" class="nav-swm-text-widget">
-                    <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&amp;deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%2522F8B394D5931781B21032A79CA5679225%2522%252C%2522departments%2522%253A%255B%2522172282%2522%255D%252C%2522sorting%2522%253A%2522BY_SCORE%2522%257D&amp;ref_=nav_swm_undefined&amp;pf_rd_p=f235c648-fdf7-4f83-9adb-d6d5a4235500&amp;pf_rd_s=nav-sitewide-msg-text-export&amp;pf_rd_t=4201&amp;pf_rd_i=navbar-4201&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_r=6R69BZN76ZNP5V9HP7GN">Shop deals in Electronics</a>
-                </div>
-              </div>
-              
-              <!-- <div id="nav-progressive-subnav"> -->
-                
-<div id="nav-subnav" class="spacious" data-category="audible">
-  <a href="https://www.amazon.com/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=topnav_storetab_adbl_subnav_ref1" class="nav-a nav-hasImage">
-    <span class="nav-a-content">
-      <img src="https://m.media-amazon.com/images/G/01/Audible/en_US/images/creative/test/audible_logo_subnav_427x100._CB451112634_.jpg" class="nav-categ-image" alt="Audible Audiobooks">
-    </span>
-  </a>
-  <a href="/hz/audible/mlp/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_1" class="nav-a" aria-label="Audible Membership">
-    <span class="nav-a-content">
-      Audible Membership
-    </span>
-  </a>
-  <a href="/Best-Sellers-Audible-Audiobooks/zgbs/audible/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_2" class="nav-a nav-hasArrow" aria-label="Now Trending" data-nav-flyout-full-width="1" data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-1:0">
-    <span class="nav-a-content">
-      Now Trending
-    </span>
-    <span class="nav-arrow"></span>
-  </a>
-  <a href="/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=sv_adbl_subnav_ref1_3" class="nav-a nav-hasArrow" aria-label="Categories" data-nav-flyout-full-width="1" data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-2:0" tabindex="0">
-    <span class="nav-a-content">
-      Categories
-    </span>
-    <span class="nav-arrow"></span>
-  </a>
-  <a href="/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=sv_adbl_subnav_ref1_4" class="nav-a nav-hasArrow" aria-label="More to Explore" data-nav-flyout-full-width="1" data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-3:0">
-    <span class="nav-a-content">
-      More to Explore
-    </span>
-      <span class="nav-arrow"></span>
-  </a>
-
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-<a href="" class="nav-a"><span class="nav-a-content"></span></a>
-
-  <a href="/hz/audible/settings/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_11" class="nav-a" aria-label="Settings" tabindex="0">
-    <span class="nav-a-content">
-      Settings
-    </span>
-  </a>
-<!-- nav-linktree-subnav - 'audible' -->
-</div>
-</div>
-</div>
+        <div id="nav-subnav" class="spacious" data-category="audible">
+          <a href="https://www.amazon.com/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=topnav_storetab_adbl_subnav_ref1"
+            class="nav-a nav-hasImage">
+            <span class="nav-a-content">
+              <img src="./assets/images/audible_logo_subnav_427x100.jpg"
+                class="nav-categ-image" alt="Audible Audiobooks" width="127px" height="400px"/>
+            </span>
+          </a>
+          <a href="/hz/audible/mlp/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_1"
+            class="nav-a"  aria-label="Audible Membership">
+            <span class="nav-a-content">
+              Audible Membership 
+            </span>
+          </a>
+          <a href="/Best-Sellers-Audible-Audiobooks/zgbs/audible/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_2"
+            class="nav-a nav-hasArrow" aria-label="Now Trending" data-nav-flyout-full-width="1"
+            data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-1:0">
+            <span class="nav-a-content">
+              Now Trending 
+            </span>
+            <span class="nav-arrow"></span>
+          </a>
+          <a href="/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=sv_adbl_subnav_ref1_3"
+            class="nav-a nav-hasArrow" aria-label="Categories" data-nav-flyout-full-width="1"
+            data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-2:0"
+            tabindex="0">
+            <span class="nav-a-content">
+              Categories
+            </span>
+            <span class="nav-arrow"></span>
+          </a>
+          <a href="/Audible-Books-and-Originals/b/?ie=UTF8&amp;node=18145289011&amp;ref_=sv_adbl_subnav_ref1_4"
+            class="nav-a nav-hasArrow" aria-label="More to Explore" data-nav-flyout-full-width="1"
+            data-nav-key="aj:https://images-na.ssl-images-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/subav/adbl_subnav_flyout_v1_en_US.json:subnav-sl-megamenu-3:0" >
+            <span class="nav-a-content">
+              More to Explore 
+            </span>
+            <span class="nav-arrow"></span>
+          </a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a href="" class="nav-a"><span class="nav-a-content"></span></a>
+          <a
+            href="/hz/audible/settings/?_encoding=UTF8&amp;ref_=sv_adbl_subnav_ref1_11"
+            class="nav-a" aria-label="Settings" tabindex="0">
+            <span class="nav-a-content">
+              Settings 
+            </span>
+          </a>
+          <!-- nav-linktree-subnav - 'audible' -->
+        </div>
+      </div>
     </header>
 
-<div id="dp" class="audible en_US"></div>
-<div id="universal-detail-ilm">
-  <div class="a-section a-spacing-none uilm-section">
-    <a aria-label="International Kindle Paperwhite" class="a-link-normal" href="">
-      <img alt="" src="https://m.media-amazon.com/images/G/01/US-hq/2021/img/Amazon_Exports/XCM_CUTTLE_1351597_1786068_US_650x45_en_US._CB645630042_.jpg" height="45" width="650" data-a-hires="https://m.media-amazon.com/images/G/01/US-hq/2021/img/Amazon_Exports/XCM_CUTTLE_1351597_1786068_US_650x45_en_US._CB645630042_.jpg">
-    </a>
-  </div>
-</div>
-<div cel_widget_id="showing-breadcrumbs_csm_instrumentation_wrapper" class="celwidget">
-            <div id="wayfinding-breadcrumbs_container" class="a-section a-spacing-none a-padding-medium">
-                 <div id="wayfinding-breadcrumbs_feature_div" class="a-subheader a-breadcrumb feature">
-                    <ul class="a-unordered-list a-horizontal a-size-small">
-                        <li>
-                            <span class="a-list-item">
-                                    <a class="a-link-normal a-color-tertiary" href=""> Books
-                                    </a>
-                                </span>
-                        </li>
-                        <li class="a-breadcrumb-divider">
-                                <span class="a-list-item a-color-tertiary">
-                                ›
-                                </span>
-                        </li>
-                        <li>
-                                <span class="a-list-item">
-                                <a class="a-link-normal a-color-tertiary" href="">
-                                    Engineering &amp; Transportation
-                                </a>
-                            </span>
-                        </li>
-                        <li class="a-breadcrumb-divider">
-                                <span class="a-list-item a-color-tertiary">›
-
-                                </span></li>
-                        <li>
-                                <span class="a-list-item">
-                                <a class="a-link-normal a-color-tertiary" href="">
-                                    Engineering
-                                </a>
-                            </span>
-                        </li>
-                        <li class="a-breadcrumb-divider">
-                                <span class="a-list-item a-color-tertiary"> › 
-
-                                </span>
-                        </li>
-                        <li>
-                                <span class="a-list-item">
-                                <a class="a-link-normal a-color-tertiary" href="">
-                                    Aerospace
-                                </a>
-                            </span>
-                        </li>
-                        <li class="a-breadcrumb-divider">
-                                <span class="a-list-item a-color-tertiary">›
-                                </span>
-                        </li>
-                        <li><span class="a-list-item">
-                                <a class="a-link-normal a-color-tertiary" href="">
-                                    Astronautics &amp; Space Flight
-                                </a>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div id="dp" class="audible_en_US">
+      <div id="universal-detail-ilm">
+        <div class="a-section a-spacing-none uilm-section">
+          <a
+            aria-label="International Kindle Paperwhite"
+            class="a-link-normal"
+            href=""
+          >
+            <img alt="" src="https://m.media-amazon.com/images/G/01/US-hq/2021/img/Amazon_Exports/XCM_CUTTLE_1351597_1786068_US_650x45_en_US._CB645630042_.jpg"
+              height="45" width="650" data-a-hires="https://m.media-amazon.com/images/G/01/US-hq/2021/img/Amazon_Exports/XCM_CUTTLE_1351597_1786068_US_650x45_en_US._CB645630042_.jpg"/>
+          </a>
         </div>
-<div id="dp-container" class="a-container" role="main"></div>
-        
+      </div>
+      <div
+        cel_widget_id="showing-breadcrumbs_csm_instrumentation_wrapper"
+        class="celwidget"
+      >
+        <div
+          id="wayfinding-breadcrumbs_container"
+          class="a-section a-spacing-none a-padding-medium"
+        >
+          <div
+            id="wayfinding-breadcrumbs_feature_div"
+            class="a-subheader a-breadcrumb feature"
+          >
+            <ul class="a-unordered-list a-horizontal a-size-small">
+              <li>
+                <span class="a-list-item">
+                  <a class="a-link-normal a-color-tertiary" href=""> Books </a>
+                </span>
+              </li>
+              <li class="a-breadcrumb-divider">
+                <span class="a-list-item a-color-tertiary"> › </span>
+              </li>
+              <li>
+                <span class="a-list-item">
+                  <a class="a-link-normal a-color-tertiary" href="">
+                    Engineering &amp; Transportation
+                  </a>
+                </span>
+              </li>
+              <li class="a-breadcrumb-divider">
+                <span class="a-list-item a-color-tertiary">› </span>
+              </li>
+              <li>
+                <span class="a-list-item">
+                  <a class="a-link-normal a-color-tertiary" href="">
+                    Engineering
+                  </a>
+                </span>
+              </li>
+              <li class="a-breadcrumb-divider">
+                <span class="a-list-item a-color-tertiary"> › </span>
+              </li>
+              <li>
+                <span class="a-list-item">
+                  <a class="a-link-normal a-color-tertiary" href="">
+                    Aerospace
+                  </a>
+                </span>
+              </li>
+              <li class="a-breadcrumb-divider">
+                <span class="a-list-item a-color-tertiary">› </span>
+              </li>
+              <li>
+                <span class="a-list-item">
+                  <a class="a-link-normal a-color-tertiary" href="">
+                    Astronautics &amp; Space Flight
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-            <ol class="a-carousel" role="list" style="width: 1235px;"><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-setsize="10" aria-posinset="1" aria-hidden="false" style="margin-left: 0px; width: 110px;"> <div id="rpi-attribute-audiobook_details-listening_length" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Listening Length</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-listening_length"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>6 hours and 42 minutes</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="2" aria-setsize="10" aria-hidden="false" style="margin-left: 15px; width: 110px;"> <div id="rpi-attribute-audiobook_details-author" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Author</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-author"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <a class="a-link-normal" href="/s?k=Piers Bizony&amp;i=audible&amp;ref=adbl_pdp_slider_author"><span>Piers Bizony</span></a> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="3" aria-setsize="10" aria-hidden="false" style="margin-left: 15px; width: 110px;"> <div id="rpi-attribute-audiobook_details-narrator" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Narrator</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-narrator"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <a class="a-link-normal" href="/s?k=Rupert Holliday Evans&amp;i=audible&amp;ref=adbl_pdp_slider_narrator"><span>Rupert Holliday Evans</span></a> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="4" aria-setsize="10" aria-hidden="false" style="margin-left: 15px; width: 110px;"> <div id="rpi-attribute-audiobook_details-release-date" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Audible release date</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-release-date"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>November 2, 2009</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="5" aria-setsize="10" aria-hidden="false" style="margin-left: 15px; width: 110px;"> <div id="rpi-attribute-audiobook_details-language" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Language</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-language"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>English</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="6" aria-setsize="10" aria-hidden="true" style="margin-left: 15px; width: 110px; visibility: hidden;"> <div id="rpi-attribute-audiobook_details-publisher" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Publisher</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-publisher"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <a class="a-link-normal" href="/s?k=Audible Studios&amp;i=audible&amp;ref=adbl_pdp_slider_publisher"><span>Audible Studios</span></a> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="7" aria-setsize="10" aria-hidden="true" style="margin-left: 15px; visibility: hidden; width: 110px;"> <div id="rpi-attribute-book_details-asin" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>ASIN</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon book_details-asin"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>B0054R4R6W</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="8" aria-setsize="10" aria-hidden="true" style="margin-left: 15px; visibility: hidden; width: 110px;"> <div id="rpi-attribute-audiobook_details-version" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Version</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-version"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>Unabridged</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card" role="listitem" aria-posinset="9" aria-setsize="10" aria-hidden="true" style="margin-left: 15px; visibility: hidden; width: 110px;"> <div id="rpi-attribute-audiobook_details-program_type" class="a-section rpi-attribute-content"> <div class="a-section a-spacing-small a-text-center rpi-attribute-label"> <span>Program Type</span> </div> <div class="a-section a-spacing-small a-text-center"> <span class="rpi-icon audiobook_details-program_type"></span> </div> <div class="a-section a-spacing-none a-text-center rpi-attribute-value"> <span>Audiobook</span> </div> </div> </li><li class="a-carousel-card rpi-carousel-attribute-card rpi-learn-more-card" role="listitem" aria-setsize="10" aria-posinset="10" aria-hidden="true" style="margin-left: 15px; visibility: hidden; width: 110px;"> <div class="a-section a-spacing-none a-text-center rpi-learn-more-card-content rpi-card-content-middle"> <a id="rich_product_information-learn_more_link" class="a-link-normal celwidget" href="#audibleproductdetails_feature_div" data-csa-c-id="k52or4-w4chvr-euxtzx-3qrsyz">See all details</a> </div> </li></ol>
+    <div id="dp-container" class="a-container" role="main"></div>
 
-        <div id="hero_background" class="a-section a-spacing-none">
-            <div id="aud_ppd" class="a-fixed-right-grid">
-                <div class="a-fixed-right-grid-inner"> <!--::before -->
-                    <div class="a-fixed-right-grid-col a-col-left">
-                        <div class="a-fixed-left-grid">
-                            <div class="a-fixed-left-grid-inner">
-                                <!--::before -->
-                                <div id="aud_left_col" class="a-fixed-left-grid-col a-col-left">
-                                    <div id="imageBlockCommon" class="celwidget">
-                                        <div class="a-row a-spacing-micro"> 
-                                            <!-- ::before  -->
-                                            <div id="audibleimageblock_feature_div" class="celwidget">
-                                                <div class="a-row a-spacing-micro"> 
-                                                    <!-- ::before -->
-                                                    <div class="a-column a-span12 a-text-center">
-                                                        <div class="image-wrapper">
-                                                             <img alt="How to Build Your Own Space Ship: The Science of Personal Space Travel">
-                                                        <!-- IMAGE -->                                            
-                                                        </div>
-                                                    <!-- ::after -->
-                                                    </div>
-                                                </div>
-                                             </div>
-                                    <!-- AUDIO FILE  -->
-                                        </div>
-                                        <div class="a-row a-spacing-micro">
-                                            <!-- ::before -->
-                                                <div id="audiblesampleplayer_feature_div" class="celwidget">
-                                                     <div class="a-hidden" data-audiosource="https://samples.audible.com/bk/bbcw/003089/bk_bbcw_003089_sample.mp3" data-audioid="audImgSample" data-asin="B0054R4R6W" data-layoutweblab="C"></div>                                        
-                                                </div>
-                                                <!-- ::after -->
-                                        </div>
-                                    </div>
+    <ol class="a-carousel" role="list" style="width: 1235px">
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-setsize="10" aria-posinset="1" 
+        aria-hidden="false" style="margin-left: 0px; width: 110px">
+        <div id="rpi-attribute-audiobook_details-listening_length"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              Listening Length
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-listening_length"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>
+              6 hours and 42 minutes
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="2" aria-setsize="10" aria-hidden="false"
+        style="margin-left: 15px; width: 110px">
+        <div id="rpi-attribute-audiobook_details-author"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              Author
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-author"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <a class="a-link-normal" 
+              href="/s?k=Piers Bizony&amp;i=audible&amp;ref=adbl_pdp_slider_author">
+              <span>
+                Piers Bizony
+              </span>
+              </a>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="3" aria-setsize="10"
+        aria-hidden="false" style="margin-left: 15px; width: 110px">
+        <div id="rpi-attribute-audiobook_details-narrator"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              Narrator
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-narrator"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <a class="a-link-normal" href="/s?k=Rupert Holliday Evans&amp;i=audible&amp;ref=adbl_pdp_slider_narrator">
+              <span>
+                Rupert Holliday Evans
+              </span>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="4" aria-setsize="10"
+        aria-hidden="false" style="margin-left: 15px; width: 110px">
+        <div id="rpi-attribute-audiobook_details-release-date"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>Audible release date</span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-release-date"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>November 2, 2009</span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="5" aria-setsize="10"
+        aria-hidden="false" style="margin-left: 15px; width: 110px">
+        <div id="rpi-attribute-audiobook_details-language"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>Language</span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-language"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>
+              English
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="6"
+        aria-setsize="10" aria-hidden="true"
+        style="margin-left: 15px; width: 110px; visibility: hidden">
+        <div id="rpi-attribute-audiobook_details-publisher"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              Publisher
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-publisher"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <a class="a-link-normal"
+              href="/s?k=Audible Studios&amp;i=audible&amp;ref=adbl_pdp_slider_publisher">
+              <span>
+                Audible Studios
+              </span>
+              </a>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="7"
+        aria-setsize="10" aria-hidden="true"
+        style="margin-left: 15px; visibility: hidden; width: 110px">
+        <div id="rpi-attribute-book_details-asin"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              ASIN
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon book_details-asin"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>
+              B0054R4R6W
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="8" aria-setsize="10" aria-hidden="true"
+        style="margin-left: 15px; visibility: hidden; width: 110px">
+        <div id="rpi-attribute-audiobook_details-version"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>
+              Version
+            </span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-version"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>
+              Unabridged
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card"
+        role="listitem" aria-posinset="9" aria-setsize="10" aria-hidden="true"
+        style="margin-left: 15px; visibility: hidden; width: 110px">
+        <div id="rpi-attribute-audiobook_details-program_type"
+          class="a-section rpi-attribute-content">
+          <div class="a-section a-spacing-small a-text-center rpi-attribute-label">
+            <span>Program Type</span>
+          </div>
+          <div class="a-section a-spacing-small a-text-center">
+            <span class="rpi-icon audiobook_details-program_type"></span>
+          </div>
+          <div class="a-section a-spacing-none a-text-center rpi-attribute-value">
+            <span>
+              Audiobook
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="a-carousel-card rpi-carousel-attribute-card rpi-learn-more-card"
+        role="listitem" aria-setsize="10" aria-posinset="10" aria-hidden="true"
+        style="margin-left: 15px; visibility: hidden; width: 110px">
+        <div class="a-section a-spacing-none a-text-center rpi-learn-more-card-content rpi-card-content-middle">
+          <a id="rich_product_information-learn_more_link"
+            class="a-link-normal celwidget" href="#audibleproductdetails_feature_div"
+            data-csa-c-id="k52or4-w4chvr-euxtzx-3qrsyz" >
+            See all details
+            </a>
+        </div>
+      </li>
+    </ol>
+
+    <div id="hero_background" class="a-section a-spacing-none">
+      <div id="aud_ppd" class="a-fixed-right-grid">
+        <div class="a-fixed-right-grid-inner">
+          <!--::before -->
+          <div class="a-fixed-right-grid-col a-col-left">
+            <div class="a-fixed-left-grid">
+              <div class="a-fixed-left-grid-inner">
+                <!--::before -->
+                <div id="aud_left_col" class="a-fixed-left-grid-col a-col-left">
+                  <div id="imageBlockCommon" class="celwidget">
+                    <div class="a-row a-spacing-micro">
+                      <!-- ::before  -->
+                      <div id="audibleimageblock_feature_div" class="celwidget">
+                        <div class="a-row a-spacing-micro">
+                          <!-- ::before -->
+                          <div class="a-column a-span12 a-text-center">
+                            <div class="image-wrapper">
+                              <img alt="How to Build Your Own Space Ship: The Science of Personal Space Travel"/>
+                              <!-- IMAGE -->
                             </div>
-
-                                <div id="aud_center_col" class="a-fixed-left-grid-col a-col-right">
-                                    <div id="audibleproducttitle_feature_div" class="celwidget">
-                                        // SHARE ICON
-                                        
-
-
-
-
-                                    </div>
-
-
-                                </div>
-                                     <!-- ::after -->
-                                     </div>
-                        </div>
-                        </div>
-                    <div id="aud_right_col" class="a-fixed-right-grid-col a-col-right">
-                        <div id="CombinedBuybox" class="celwidget">
-                            <div id="audiblerestartmembershipnotification_feature_div" class="celwidget"></div>
-                            <div id="AudibleBuyboxContainer" class="celwidget"></div>
-                        </div>
-                        <div id="tellAFriendBox_feature_div" class="celwidget">
-                        <div id="amazonClubSuggestionWidget_feature_div" class="celwidget">
-
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>                   
                             <!-- ::after -->
-
-                    <div id="audible-carousel-pdp_feature_div" class="celwidget">
-                        <div class="a-row a-carousel-header-row a-size-large">
-                                <!-- ::before -->
-                            <div class="a-column a-span8">
-                                <h1 class="a-carousel-heading a-inline-block">Related to this topic</h1>
-                            </div>
-                            <div class="a-column a-span4 a-span-last a-text-right">
-                                <span class="a-carousel-pagination a-size-base" style="visibility: visible;">
-                                    <span class="a-carousel-page-count">
-                                            Page 
-                                            <span class="a-carousel-page-current">
-                                            1
-                                            </span>
-                                            of 
-                                            <span class="a-carousel-page-max">
-                                            9
-                                            </span>
-                                        </span>
-                                        <span class="a-carousel-restart-container" style="display: none;">
-                                        <span class="a-text-separator">
-                                        </span>
-                                        <a class="a-carousel-restart" href="#">
-                                            Start Over
-                                        </a>
-                                        </span>
-                                        <span class="a-carousel-accessibility-page-info a-offscreen" aria-live="polite">
-                                        Page 1 of 9
-                                        </span>
-                                        </span>
-                            </div>
+                          </div>
                         </div>
+                      </div>
+                      <!-- AUDIO FILE  -->
                     </div>
-
-
-                            
-                        </div>        
-        </div>
-    </div> 
-
+                    <div class="a-row a-spacing-micro">
+                      <!-- ::before -->
+                      <div id="audiblesampleplayer_feature_div"
+                        class="celwidget">
+                        <div class="a-hidden"
+                          data-audiosource="https://samples.audible.com/bk/bbcw/003089/bk_bbcw_003089_sample.mp3"
+                          data-audioid="audImgSample"
+                          data-asin="B0054R4R6W"
+                          data-layoutweblab="C"
+                        ></div>
+                      </div>
+                      <!-- ::after -->
                     </div>
-                 </div>
-
+                  </div>
                 </div>
-                </div>
-                </div>
-        </div>
 
+                <div
+                  id="aud_center_col"
+                  class="a-fixed-left-grid-col a-col-right"
+                >
+                  <div id="audibleproducttitle_feature_div" class="celwidget">
+                    // SHARE ICON
+                  </div>
+                </div>
+                <!-- ::after -->
+              </div>
+            </div>
+          </div>
+          <div id="aud_right_col" class="a-fixed-right-grid-col a-col-right">
+            <div id="CombinedBuybox" class="celwidget">
+              <div
+                id="audiblerestartmembershipnotification_feature_div"
+                class="celwidget"
+              ></div>
+              <div id="AudibleBuyboxContainer" class="celwidget"></div>
+            </div>
+            <div id="tellAFriendBox_feature_div" class="celwidget">
+              <div
+                id="amazonClubSuggestionWidget_feature_div"
+                class="celwidget"
+              ></div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- ::after -->
 
+    <div id="audible-carousel-pdp_feature_div" class="celwidget">
+      <div class="a-row a-carousel-header-row a-size-large">
+        <!-- ::before -->
+        <div class="a-column a-span8">
+          <h1 class="a-carousel-heading a-inline-block">
+            Related to this topic
+          </h1>
         </div>
-        </body>
+        <div class="a-column a-span4 a-span-last a-text-right">
+          <span
+            class="a-carousel-pagination a-size-base"
+            style="visibility: visible"
+          >
+            <span class="a-carousel-page-count">
+              Page
+              <span class="a-carousel-page-current"> 1 </span>
+              of
+              <span class="a-carousel-page-max"> 9 </span>
+            </span>
+            <span class="a-carousel-restart-container" style="display: none">
+              <span class="a-text-separator"> </span>
+              <a class="a-carousel-restart" href="#"> Start Over </a>
+            </span>
+            <span
+              class="a-carousel-accessibility-page-info a-offscreen"
+              aria-live="polite"
+            >
+              Page 1 of 9
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+      </div>
+  </body>
 </html>
