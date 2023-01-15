@@ -190,23 +190,42 @@ body a{
 }
 
 #showing-breadcrumbs{
-	margin-top: 8px;
 	height: 16px;
-	color:#6D7070;
+	color: #333;
 	display: block;
+	display: flex;
 }
-#showing-breadcrumbs .showing-breadcrumbs-subheader ul {
+#showing-breadcrumbs ul{
 	display: flex;
 	justify-content: start;
+	align-items: center;
 	height: 14px;
 }
-#showing-breadcrumbs ul li span {
-	font: 10px;
+  #showing-breadcrumbs ul li{
+	margin-left: .8em;
+	list-style: none;
+	font-size: .7em;
 }
+  #showing-breadcrumbs ul li:first-child{
+	margin-left: 1.5em;
+}
+  #showing-breadcrumb .a-link-normal .a-link-normal {
+	font-size: .3em;
+ }
 
-#db-container .a-container{
+/* #showing-breadcrumbs .a-list-item .a-link-normal{
+	font: 10px;
+} */
+
+main {
 	width: 1500px;
 	padding: 18px;
+	display: block;
+	margin: 20px auto 0px;
+}
+#showcase{
+	width:1015px;
+	height:597px;
 }
 
 .a-fixed-right-grid-col .a-col-left{
@@ -214,28 +233,44 @@ body a{
 	height: 614px;
 }
 
-#aud_left_col .a-fixed-left-grid-col .a-col-left{
+.left-container{
 	width: 250px;
 	height: 317px;
 }
-#aud_center_col .a-fixed-left-grid-col .a-col-right {
+
+.showcase-container .center-container{
 	width: 873.24px;
-	height: 614px;
+	height: 597px;
 }
 .main-image {
 	width: 250px;
 	height: 250px;
 }
-#audibleProductTitle_byline .a-section{
-	height: 20px;
+.audio-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:150px;
+	height:29px;
+	margin: .7em auto .1em;
+	border-radius: 5px;
 }
- #averageCustomerReviews_feature_div .celwidget{
-		height: 20px;
- }
-#audiblesampleplayer .celwidget {
-		width: 31px;
+.showcase-container p{
+	font-size: .7em;
+	text-align: center;
+	font-weight:bold;
 }
-#productTitle{
+.audio-sampler{
+	width:150px;
+	height:29px;
+}
+
+/* duo lines header - primary , secondary */
+#audibleProductTitle h1 #title{
+	width: 842.64px;
+	height: 64px;
+}
+#productTitle h1 #title span{
 	width: 703.95px;
 	height: 30px;
 }
@@ -251,6 +286,7 @@ body a{
 	width: 842px;
 	height: 24px;
 }
+/*  3 boxes horizontal container, ul */
 #tmmSwatches .a-row {
 	width: 842px;
 	height: 106px;
@@ -263,6 +299,7 @@ body a{
 	width: 847px;
 	height: 20px;
 }
+/* carousel */
 #richProductInformation_feature_div .celwidget{
 	width: 842px;
 	height: 133px;
