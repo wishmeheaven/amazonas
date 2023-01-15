@@ -37,9 +37,7 @@
 		url('../assets/fonts/AmazonEmber_W_Rg.woff') format('woff'),
 		url('../assets/fonts/AmazonEmber_W_Rg.woff2') format('woff2');
 }
-div {
-	border: 1px solid rgb(232, 85, 85);
-}
+
 div a {
 		border: 1px solid rgb(9, 159, 178);
 
