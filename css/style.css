@@ -65,10 +65,14 @@ header #navbar  {
 }
 #nav-belt .nav-left{
 	width: 216.64px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 #nav-belt #nav-logo{
 	width: 113px;
+	height: 50px;
 }
 #nav-belt #nav-logo a{
 	height: 50px;
@@ -172,7 +176,12 @@ body a{
 	display: flex;
 	padding: 0 9px 0 15px;
 	justify-content: space-between;
+	align-items: center;
 	color: #000;
+	font-size: 12px;
+}
+#nav-subnav.spacious a:hover  {
+	border-bottom: 2px solid #E68305;
 }
 
 #dp .audible_en_US .universal-detail-ilm{
@@ -218,19 +227,18 @@ body a{
 } */
 
 main {
-	width: 1500px;
+	width:1164px;
+	height:597px;
 	padding: 18px;
-	display: block;
-	margin: 20px auto 0px;
+	margin: 0 auto ;
+	display: flex;
+	justify-content: center;
+	align-items: start;
 }
-#showcase{
+.showcase-container{
 	width:1015px;
 	height:597px;
-}
-
-.a-fixed-right-grid-col .a-col-left{
-	width: 1164px;
-	height: 614px;
+	
 }
 
 .left-container{
@@ -238,21 +246,25 @@ main {
 	height: 317px;
 }
 
-.showcase-container .center-container{
-	width: 873.24px;
+.center-container{
+	width: 842px;
 	height: 597px;
+	/* display: flex; */
+	justify-content: start;
+	text-align: center;
 }
-.main-image {
+
+/* .main-image {
 	width: 250px;
 	height: 250px;
-}
+} */
 .audio-container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width:150px;
 	height:29px;
-	margin: .7em auto .1em;
+	margin: .7em auto .18em;
 	border-radius: 5px;
 }
 .showcase-container p{
@@ -264,17 +276,45 @@ main {
 	width:150px;
 	height:29px;
 }
-
+.icon-container
+{	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	background-color: rgba(239, 239, 239, 0.912);
+	border: 2px solid rgb(223, 223, 223);
+	border-radius: 50%;
+}
+.center
 /* duo lines header - primary , secondary */
-#audibleProductTitle h1 #title{
-	width: 842.64px;
+.title-box{
+
+	width: 848.64px;
 	height: 64px;
+	padding: 1.7em;
+	margin-top: 0;
 }
-#productTitle h1 #title span{
-	width: 703.95px;
-	height: 30px;
+.center-container .primary-title {
+	font-size:.8em;
+	font-weight: 500;
 }
-.a-size-medium .a-color-secondary{
+.center-container .secondary-title{
+	font-size:.6em;
+	font-weight: lighter;
+
+}
+.icon-share{
+	width:24px;
+	height: 23px;
+}
+.icon-audible{
+	 right: 0;
+	 top: 0;
+	width:20px;
+	height: 12px;
+}
+.center-container .secondary-title{
 	width: 297.8px;
 	height: 22px;
 }
@@ -282,10 +322,20 @@ main {
 	width: 20px;
 	height: 12px;
 }
-.morpheusRoot {
+.creators{
+	height: 20px;
+}
+.rating{
+	height: 20px;
+}
+.formats {
 	width: 842px;
 	height: 24px;
 }
+.description{
+	height: 120px;
+}
+
 /*  3 boxes horizontal container, ul */
 #tmmSwatches .a-row {
 	width: 842px;
@@ -305,9 +355,23 @@ main {
 	height: 133px;
 }
 
-#aud_right_col .a-fixed-right-grid-col .a-col-right {
+.buy-section {
 	width: 300px;
 	height: 411px;
+}
+.order-item-box{
+	height: 185px;
+}
+.add-item{
+	height: 44.32px;
+}
+.membership-box{
+		height: 139px;
+}
+.membership{
+	padding: 14px 18px;
+	width: 292px;
+	height: 131px;
 }
 
 

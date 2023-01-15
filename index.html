@@ -13,8 +13,7 @@
         <div id="nav-belt">
           <div class="nav-left">
             <div id="nav-logo">
-              <a
-                href="./assets/images/sprite/logo_amazon_v1_104x38.png"
+              <img src="./assets/images/sprite/logo_amazon_v1_104x38.png"
                 width="104"
                 height="38"
                 id="nav-logo-sprites"
@@ -26,7 +25,7 @@
                   id="logo-ext"
                   class="nav-sprite nav-logo-ext nav-progressive-content"
                 ></span>
-                <span class="nav-logo-locale">.us</span>
+                <span class="nav-logo-locale"></span>
               </a>
             </div>
 
@@ -191,8 +190,7 @@
             class="a-link-normal"
             href=""
           >
-            <img
-              alt=""
+            <img alt=""
               src="https://m.media-amazon.com/images/G/01/US-hq/2021/img/Amazon_Exports/XCM_CUTTLE_1351597_1786068_US_650x45_en_US._CB645630042_.jpg"
               height="45"
               width="650"
@@ -251,9 +249,9 @@
       </div>
 
       <main>
-        <div id="showcase" class="showcase-container">
+        <div class="showcase-container">
         <div class="left-container">   
-        <img class="main-image" src="./assets/images/cover_500x500.jpg" width="500px"     height="500">
+        <img class="image" src="./assets/images/cover_500x500.jpg" width="250" height="250">
         <div class="audio-container">
           <audio controls class="audio-sampler">
           <source src="./assets/audio/audio_sample.mp3" type="audio/mp3">
@@ -261,15 +259,24 @@
           </div>
             <p>Audio Sample</p>
             </div>
-          </div>
+
           <div class="center-container">
+            <div class="icon-container">
+                <svg class="icon-share" style=background:url(./assets/svg/share-std.svg)no-repeat></svg>
+                </div>
             <div class="title-box">
               <h1>
-                How to Build Your Own Space Ship: The Science of Personal Space Travel
-                <svg style=background:url(./assets/svg/share-std.svg)no-repeat></svg>
-              </h1>
-              <h2></h2>
+                <span class="primary-title">
+              How to Build Your Own Space Ship: The Science of Personal Space Travel              
+              </span>            
+                <span>
+                  <img class="icon-audible" src="./assets/images/sprite/logo_audible_75x48.jpg"/>
+                  </span>
+                  <span class="secondary-title">Audible Audiobook – Unabridged>
+                    </span>
+            </h1>
             </div>
+          
             <div class="creators"></div>
             <div class="rating"></div>
             <hr />
@@ -316,7 +323,21 @@
             <div class="carousel"></div>
           </div>
         </div>
-        <aside class="buy-section"></aside>
+        <div class="right-cintainer">
+        <aside class="buy-section">
+          <div class="order-item">
+
+          </div>
+          <div class="add-item">
+
+          </div>
+          <div class="membership-box">
+              <div class="membership">
+            </div>
+          </div>
+          </div>
+        </aside>    
+        </div>
       </main>
     </div>
   </body>
